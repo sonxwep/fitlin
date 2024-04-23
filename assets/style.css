@@ -1,0 +1,1690 @@
+@import url("./fonts.css");
+*{
+    font-family: "Manrope-s";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Manrope-s", sans-serif;  
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    width: 1200px;
+}
+body{
+    background: linear-gradient(90deg, #ebeef08a, #dfe6ec );
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 70px;
+    padding: 20px 0;
+}
+header .navigation a{
+    color: #000000;
+    font-family: "Manrope-b";
+    font-size:16px;
+    font-weight:500;
+    margin:0 10px 0 10px;
+}
+header .icons a{
+    color: #000000;
+    padding:10px;
+}
+header .icons a:hover{
+color: #ffffff;   
+}
+.section-platform h2{
+    font-size: 40px;
+    font-family: "Manrope-b";
+    font-weight: 800;
+}
+.section-platform p{
+    font-size: 18px;
+    font-family: "Manrope-s";
+    width: 550px;
+}
+.section-platform .platforma{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.section-platform .container{
+display: flex;
+padding: 60px;
+}
+.knopa{
+padding: 10px 20px;
+border-radius: 7px;
+background-color: rgb(80, 80, 247);
+outline: 1px solid rgb(80, 80, 247) ;
+outline-offset: 3px;
+border: none;
+color: #ffffff;
+width: 200px;
+display: flex;
+justify-content: center;
+}
+.section-platform .kartinka img{
+    height: 450px;
+    width: 550px;
+}
+.section-kurs .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.section-kurs .zagolovok{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Manrope-b";
+}
+.kartina1{
+    background-color: #ffffff;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.kartina2{
+    background-color: #ffffff;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.kartina3{
+    background-color: #ffffff;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.section-kurs .linia{
+display: flex;
+gap: 40px;
+justify-content: center;
+}
+.section-kurs .linia p{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    align-items: end;
+    font-family: "Manrope-b"
+}
+.section-try .container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 60px;
+}
+.fon{
+border-radius: 20px;
+height: 400px;
+position: relative;
+}
+.part h2{
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Manrope-b";    
+}
+.part p{
+    font-size: 16px;
+    width: 500px;
+    color: #313131;
+}
+.part .knopa{
+    width: 240px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.part {
+display: flex;
+gap: 10px;  
+flex-direction: column;
+position: absolute;
+align-items: start;
+z-index: 1000;
+margin-right:350px ;
+}
+.section-streching .photo img{
+    border-radius: 20px;
+    height: 300px;   
+}
+.section-streching .container{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;  
+    padding: 50px 60px;
+}
+.section-streching h3{
+font-size: 15px;
+font-weight: 800;
+font-family: "Manrope-b"
+}
+.section-streching h1{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Manrope-b";
+}
+.section-streching .main{
+    font-size: 18px;
+    width: 500px;
+    color: #313131;
+} 
+.section-streching .rise, .count{
+display: flex;
+padding:  20px;
+border-radius: 7px;
+background-color: rgb(255, 255, 255);
+outline: 1px solid rgb(255, 255, 255) ;
+border: none;
+color: #000000;
+height: 35px;
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: "Manrope-b";
+margin-top: 10px;
+}
+
+.section-streching .rise, .count p{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: "Manrope-b";
+}
+.info{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+.price p{
+font-size: 38px;
+font-weight: 800;
+font-family: "Manrope-b";   
+}
+.price{
+    display: flex;
+    gap: 200px;
+}
+.price .knopa{
+    display: flex;
+    align-items: center;
+}
+.container2{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.str{
+    display: flex;
+    gap: 10px;
+}
+.container2 .perecluch .line p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #000000;
+    width: 300px;
+    line-height: 25px;
+}
+.container2 label {
+width: 15%;
+font-size: 14px;
+margin-right: 20px;
+padding:  10px;
+border-radius: 7px;
+background-color: rgb(255, 255, 255);
+border: none;
+width: 130px;
+color: #000000;
+height: 35px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Manrope-b";
+margin-top: 8px;
+}
+.container2 input{
+    display: none;
+}
+.container2 label:hover{
+ background-color:rgb(80, 80, 247);  
+ color: #ffffff; 
+}
+.perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+.line{
+    width: 100%;
+    display: flex;
+}
+.text{
+    width: calc(100%/3);
+    /*animation: carousel 10s ease-in-out alternate infinite;*/
+    transition: 1s;
+}
+
+#input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+     ;
+}
+#input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#input3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+    @keyframes carousel {
+    0%,20%{
+        transform: translateX(0);
+    }
+    30%,70%{
+        transform: translateX(-100%);
+    }
+    80%,100%{
+        transform: translateX(-200%);
+        
+    }
+}
+.section-coaches .container{
+    display: flex;
+    padding: 40px 50px 100px 50px ;
+
+}
+.section-coaches .linia{
+display: flex;
+gap: 30px;
+justify-content: center;
+margin-top: 150px;
+position: relative;
+right: 200px;
+}
+.section-coaches .linia .descrip {
+display: flex;
+justify-content: center;
+font-size: 13px;
+font-weight: 800;
+align-items: end;
+font-family: "Manrope-b";
+width: 200px;
+position: relative;
+right: 60px;
+padding-bottom: 3px;
+}
+.section-coaches .linia .name{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    align-items: end;
+    font-family: "Manrope-b";
+    width: 200px;
+    position: relative;
+    right: 60px;
+}
+.section-coaches .kartina1{
+    background-color: #ffffff;
+    height: 240px;
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.kartina1 img{
+    padding: 4px;
+}
+
+.section-coaches .kartina2{
+    background-color: #ffffff;
+    height: 240px;
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;      
+}
+.kartina2 p{
+margin-left: 25px;
+}
+
+.section-coaches .kartina3{
+    background-color: #ffffff;
+    height: 240px;
+    width: 220px;
+    display: flex;
+    border-radius: 10px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    text-align: center; 
+}
+.section-coaches .kartina3 p{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.section-about img{
+    border-radius: 20px;
+    height: 300px;   
+}
+.section-about .container{
+    display: flex;
+    gap: 80px;
+    padding: 50px 60px;
+}
+.section-about .about{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-about .about h2{
+    font-size: 35px;
+    font-family: "Manrope-b";
+    font-weight: 800;   
+}
+.section-about .about p{
+  font-size: 15px; 
+  color: #313131; 
+}
+.section-question .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 120px 60px;
+}
+.section-question .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 20px;
+}
+.section-question h2{
+    font-size: 35px;
+    font-family: "Manrope-b";
+    font-weight: 800; 
+    margin-bottom: 15px;  
+}
+.section-question h3{
+    font-size: 18px;
+    font-family: "Manrope-b";
+    font-weight: 800;   
+}
+.section-question p{
+    font-size: 15px; 
+    color: #000000;    
+}
+.section-question .num{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(80, 80, 247);
+    color: #ffffff;
+    height: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+.cell{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+.niz .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px 10px 120px;
+}
+.niz .prava p{
+    font-family: "Manrope-r";
+    font-size: 14px;
+}
+.niz .socials i{
+    height: 60px;
+    width: 60px;
+    color: rgb(80, 80, 247);      
+}
+.niz .conf a{
+    font-family: "Manrope-r";
+    text-decoration: underline;
+    color: #000000;
+    font-size: 14px;
+}
+.section-auth .container{
+    border-radius: 20px;
+    background: linear-gradient(90deg,#bfd6e694, #f0f1f3e8 );
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 60px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.forma{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.zaglavie h2{
+    font-size: 40px;
+    font-family: "Manrope-b";
+    font-weight: 800;    
+    display: flex;
+    justify-content: center;
+}
+.zaglavie p{
+    font-size: 17px;
+    margin-top: 15px;
+    color: #000000b9;
+    width: 600px; 
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+}
+.section-auth .name, .phone{
+    border: solid 1.5px #b8b6b669;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.section-auth .mail{
+    border: solid 1.5px #b8b6b669;
+    padding: 15px;
+    border-radius: 8px;
+    width: 520px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.knopki{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+.acc{
+display: flex;
+gap: 10px;
+}
+#sogl{
+    margin: 0 10px 0 0;
+}
+.knopki .knopa{
+display: flex;
+justify-content: center;
+margin-left: 150px;
+margin-top: 30px;
+}
+@media (max-width: 1024px) {
+    .container{
+        width: 940px !important ;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .section-platform .platforma{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+    }
+    .section-platform .container{
+    display: flex;
+    padding: 40px;
+    }
+    .section-platform .kartinka img{
+        height: 330px;
+        width: 400px;
+    }
+    .section-platform h2{
+        font-size: 35px;
+        font-family: "Manrope-b";
+        font-weight: 800;
+    }
+    .section-platform p{
+        font-size: 16px;
+        font-family: "Manrope-s";
+        width: 500px;
+    }
+    .section-streching .photo img{
+        border-radius: 20px;
+        height:300px;
+        width: 450px;   
+    }
+    .section-streching .container{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;  
+        padding: 50px 60px;
+    }
+    .section-streching h3{
+    font-size: 13px;
+    font-weight: 800;
+    font-family: "Manrope-b"
+    }
+    .section-streching h1{
+        font-size: 30px;
+        font-weight: 800;
+        font-family: "Manrope-b";
+    }
+    .section-streching .main{
+        font-size: 16px;
+        width: 500px;
+        color: #313131;
+    } 
+    .section-streching .rise, .count{
+    display: flex;
+    padding:  16px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255) ;
+    border: none;
+    color: #000000;
+    height: 32px;
+    align-items: center;
+    gap: 10px;
+    font-family: "Manrope-b";
+    margin-top: 10px;
+    }
+
+    .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .price p{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Manrope-b";   
+    }
+    .price{
+        display: flex;
+        gap: 190px;
+    }
+    .section-coaches .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-coaches .linia{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+        position: relative;
+        left: 50px;
+        justify-content: start;
+        }
+        .container2 {
+            width: 900px;
+            margin: 0 auto;
+            padding: 20px 60px 50px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .str {
+            display: flex;
+            gap: 10px;
+            width: 60px;
+        }
+        .section-streching .line {
+            width: 500px;
+            display: flex;
+        }
+        .section-streching{
+            overflow-x: hidden;
+        }
+        .section-about img{
+            border-radius: 20px;
+            height: 300px;
+            width: 500px;   
+        }
+        .section-about .container{
+            display: flex;
+            gap: 30px;
+            padding: 50px 60px;
+        }
+}
+@media (max-width: 992px) {
+    .container{
+        width:  720px !important;
+        margin: 0 auto;
+    }
+body{
+overflow-x: hidden;
+    }
+    .section-platform .platforma{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.section-platform .container{
+display: flex;
+}
+.section-platform .kartinka img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    right: 110px;
+}
+.section-platform h2{
+    font-size: 30px;
+    font-family: "Manrope-b";
+    font-weight: 800;
+    width: 400px;
+}
+.section-platform p{
+    font-size: 13px;
+    font-family: "Manrope-s";
+    width: 340px;
+}
+.section-platform .platforma{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    right: 40px;
+}
+.section-kurs .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.section-kurs .zagolovok{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Manrope-b";
+}
+.kartina1{
+    background-color: #ffffff;
+    height: 220px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.kartina2{
+    background-color: #ffffff;
+    height: 220px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.kartina3{
+    background-color: #ffffff;
+    height: 220px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.section-kurs .linia{
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+.section-try .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+    .fon{
+    border-radius: 20px;
+    height: 300px;
+    position: relative;
+    }
+    .part h2{
+        font-size: 27px;
+        font-weight: 800;
+        font-family: "Manrope-b";    
+    }
+    .part p{
+        font-size: 14px;
+        width: 300px;
+        color: #313131;
+    }
+    .part .knopa{
+        width: 240px;
+        height: 45px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .part {
+    display: flex;
+    gap: 10px;  
+    flex-direction: column;
+    position: absolute;
+    align-items: start;
+    z-index: 1000;
+    margin-right:350px ;
+    }
+    .section-streching .container{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+        padding: 50px;
+    }
+    .section-coaches .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-coaches .linia{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+        position: relative;
+        left: -30px;
+        justify-content: start;
+        }
+        .section-coaches .container2 {
+            width: 900px;
+            margin: 0 auto;
+            padding: 20px 60px 50px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .str {
+            display: flex;
+            gap: 10px;
+            width: 60px;
+        }
+        .section-streching .line {
+            width: 500px;
+            display: flex;
+        }
+        .section-streching{
+            overflow-x: hidden;
+        }
+        .section-about img{
+            border-radius: 20px;
+            height: 340px;
+            width: 500px;   
+        }
+        .section-about .container{
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            padding: 50px 60px;
+        }
+        .section-question .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 120px 60px;
+        }
+        .section-question .line{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            flex-wrap: wrap; 
+            gap: 50px;
+        }
+        .section-question h2{
+            font-size: 35px;
+            font-family: "Manrope-b";
+            font-weight: 800; 
+            margin-bottom: 30px;  
+        }
+        .section-question h3{
+            font-size: 18px;
+            font-family: "Manrope-b";
+            font-weight: 800;   
+        }
+        .section-question p{
+            font-size: 15px; 
+            color: #000000; 
+            width: 250px;   
+        }
+        .cell{
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            gap: 10px;
+            text-align: left;
+        }
+        .niz .container{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 40px 10px 40px;
+        }
+        .niz .prava p{
+            font-family: "Manrope-r";
+            font-size: 14px;
+        }
+        .niz .socials i{
+            height: 40px;
+            width: 40px;
+            color: rgb(80, 80, 247);      
+        }
+        .niz .conf a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #000000;
+            font-size: 14px;
+        }
+        @media (max-width: 400px) {
+            .container{
+                width: 96% !important;
+                margin: 0 auto;
+            }
+            header{
+                display: flex;
+                justify-content:start;
+                gap: 20px;
+                flex-direction: column;
+                padding-left: 10px;
+            }
+            header .navigation a{
+                color: #000000;
+                font-family: "Manrope-b";
+                font-size:14px;
+                font-weight:500;
+                display: flex;
+                flex-direction: column;
+                
+
+            }
+            header .icons a{
+                color: #000000;
+                padding:10px;
+            }
+            header .icons a:hover{
+            color: #ffffff;   
+            }
+            .section-platform .platforma{
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px; 
+                padding: 10px 30px;
+            }
+            .section-platform .container{
+            display: flex;
+            flex-direction: column;
+            }
+            .section-platform .kartinka img{
+                height: 280px;
+                width: 330px;
+                position: relative;
+                right: 20px;
+                padding: 40px;
+            }
+            .section-platform h2{
+                font-size: 25px;
+                font-family: "Manrope-b";
+                font-weight: 800;
+                width: 320px;
+            }
+            .section-platform p{
+                font-size: 12px;
+                font-family: "Manrope-s";
+                width: 320px;
+            }
+            .section-platform .platforma{
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                position: relative;
+                right: 40px;
+            }
+            .section-kurs .linia{
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                flex-direction: column;
+                }
+                .section-try .container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    }
+                    .fon{
+                    border-radius: 20px;
+                    height: 180px;
+                    width: 360px;
+                    display: none;
+                    }
+                    .part h2{
+                        font-size: 22px;
+                        font-weight: 800;
+                        font-family: "Manrope-b";    
+                    }
+                    .part p{
+                        font-size: 12px;
+                        width: 300px;
+                        color: #313131;
+                        text-align: center;
+                        justify-content: center;
+                        padding-right: 30px;
+                    }
+                    .part .knopa{
+                        width: 240px;
+                        height: 25px;
+                        font-size: 14px;
+                        margin-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        padding-left: 50px;
+                    }
+                    .part {
+                    display: flex;
+                    gap: 10px;  
+                    flex-direction: column;
+                    position: relative;
+                    z-index: 1000;
+                    height: 200px;
+                    margin: 50px 20px 30px 40px;
+                    }
+                    .section-streching .line {
+                        width: 500px;
+                        display: flex;
+                    }
+                    .section-streching .container{
+                        display: flex;
+                        gap: 30px;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column-reverse;  
+                        padding: 50px;
+                        position: relative;
+                        bottom: 40px;
+                    }
+                    .section-streching .main{
+                        font-size: 18px;
+                        width: 350px;
+                        color: #313131;
+                    } 
+                    .section-streching .rise, .count{
+                    display: flex;
+                    padding:  20px;
+                    border-radius: 7px;
+                    background-color: rgb(255, 255, 255);
+                    outline: 1px solid rgb(255, 255, 255) ;
+                    border: none;
+                    color: #000000;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-family: "Manrope-b";
+                    margin-top: 10px;
+                    display: none;
+                    }
+                    .section-streching .rise, .count p{
+                        font-size: 12px;
+                        font-weight: 800;
+                        font-family: "Manrope-b";
+                        width: 200px;
+                        display: flex;
+                        display: none;
+                    }
+                    .info{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    }
+                    .price p{
+                    font-size: 38px;
+                    font-weight: 800;
+                    font-family: "Manrope-b"; 
+                    width: 360px;  
+                    }
+                    .price{
+                        display: flex;
+                        gap: 30px;
+                        flex-direction: column;
+                    }
+                    .price .knopa{
+                        display: flex;
+                        align-items: center;
+                    }
+                    .section-streching .photo img{
+                        border-radius: 20px;
+                        height:250px;
+                        width: 360px; 
+                    }
+                    .section-streching .half{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                    }
+                    .section-coaches .container{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .section-coaches .linia{
+                        display: flex;
+                        gap: 15px;
+                        justify-content: center;
+                        flex-direction: column;
+                        margin-top: 20px;
+                        position: relative;
+                        left: -30px;
+                        justify-content: center;
+                        margin-left: 40px;
+                        }
+                        .section-coaches .container2 {
+                            width: 360px;
+                            margin: 0 auto;
+                            padding: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            right: 50px;
+                        }
+                        .section-about img{
+                            border-radius: 20px;
+                            height: 270px;
+                            width: 360px; 
+                            position: relative;
+                            right: 50px;
+                          
+                        }
+                        .section-about .container{
+                            display: flex;
+                            gap: 30px;
+                            flex-direction: column;
+                            padding: 50px;
+                        }
+                        .section-about .about{
+                            width: 360px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            position: relative;
+                            right: 45px;
+                        }
+                        .section-about .about h2{
+                            font-size: 30px;
+                            font-family: "Manrope-b";
+                            font-weight: 800;   
+                        }
+                        .section-about .about p{
+                          font-size: 12px; 
+                          color: #313131; 
+                        }
+                        .niz .container{
+                            display: flex;
+                            justify-content:center;
+                            flex-direction: column;
+                            padding: 40px 20px 40px 60px;
+                            gap: 20px;
+                        }
+                        .niz .prava p{
+                            font-family: "Manrope-r";
+                            font-size: 14px;
+                        }
+                        .niz .socials i{
+                            height: 40px;
+                            width: 40px;
+                            color: rgb(80, 80, 247); 
+                            margin-left: 30px;
+                            margin-top: 15px;
+                                 
+                        }
+                        .niz .conf a{
+                            font-family: "Manrope-r";
+                            text-decoration: underline;
+                            color: #000000;
+                            font-size: 14px;
+                            margin-left: 15px;
+                        }
+                        .section-auth .container{
+                            border-radius: 20px;
+                            background: linear-gradient(90deg,#bfd6e694, #f0f1f3e8 );
+                            background-repeat: no-repeat;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 20px;
+                            padding: 30px;
+                        }
+                        .two{
+                            display: flex;
+                            gap: 20px;
+                        }
+                        .two, .col, .one p{
+                            font-size: 0px;
+                            position: relative;
+                            
+                        }
+                        .col{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                        }
+                        .forma{
+                            display: flex;
+                            gap: 15px;
+                            flex-direction: column;
+                        }
+                        .zaglavie h2{
+                            font-size: 30px;
+                            font-family: "Manrope-b";
+                            font-weight: 800;    
+                            display: flex;
+                            justify-content: center;
+                            width: 360px;
+                            text-align: center;
+                        }
+                        .zaglavie p{
+                            font-size: 13px;
+                            margin-top: 15px;
+                            color: #000000b9;
+                            width:360px; 
+                            display: flex;
+                            justify-content: center; 
+                            text-align: center; 
+                        }
+                        .section-auth .name, .phone{
+                            border: solid 1.5px #b8b6b669;
+                            padding: 12px;
+                            border-radius: 8px;
+                            width: 130px;
+                            font-size: 14px;
+                            color: #ffffff;
+                            position: relative;
+                            left: 40px;
+                        }
+                        .section-auth .mail{
+                            border: solid 1.5px #b8b6b669;
+                            padding: 12px;
+                            border-radius: 8px;
+                            width: 320px;
+                            font-size: 13px;
+                            color: #ffffff;
+                            position: relative;
+                            left: 30px;
+                        }
+                        .knopki{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;  
+                            width: 360px;
+                            font-size: 13px;
+                            position: relative;
+                            left: 15px;
+                        }
+                        .knopki .knopa{
+                            position: relative;
+                            right: 80px;  
+                        }
+}
+@media (max-width: 414px) {
+    .container{
+        width: 96% !important;
+        margin: 0 auto;
+    }
+    header{
+        display: flex;
+        justify-content:start;
+        gap: 20px;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    header .navigation a{
+        color: #000000;
+        font-family: "Manrope-b";
+        font-size:14px;
+        font-weight:500;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    header .icons a{
+        color: #000000;
+        padding:10px;
+    }
+    header .icons a:hover{
+    color: #ffffff;   
+    }
+    .section-platform .platforma{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+        padding: 10px 30px;
+    }
+    .section-platform .container{
+    display: flex;
+    flex-direction: column;
+    }
+    .section-platform .kartinka img{
+        height: 280px;
+        width: 330px;
+        position: relative;
+        right: 20px;
+        padding: 40px;
+    }
+    .section-platform h2{
+        font-size: 25px;
+        font-family: "Manrope-b";
+        font-weight: 800;
+        width: 320px;
+    }
+    .section-platform p{
+        font-size: 12px;
+        font-family: "Manrope-s";
+        width: 320px;
+    }
+    .section-platform .platforma{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+        right: 40px;
+    }
+    .section-kurs .linia{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column;
+        }
+        .section-try .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            }
+            .fon{
+            border-radius: 20px;
+            height: 180px;
+            width: 360px;
+            display: none;
+            }
+            .part h2{
+                font-size: 22px;
+                font-weight: 800;
+                font-family: "Manrope-b";    
+            }
+            .part p{
+                font-size: 12px;
+                width: 300px;
+                color: #313131;
+                text-align: center;
+                justify-content: center;
+                padding-right: 30px;
+            }
+            .part .knopa{
+                width: 240px;
+                height: 25px;
+                font-size: 14px;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                padding-left: 50px;
+            }
+            .part {
+            display: flex;
+            gap: 10px;  
+            flex-direction: column;
+            position: relative;
+            z-index: 1000;
+            height: 200px;
+            margin: 50px 20px 30px 40px;
+            }
+            .section-streching .line {
+                width: 500px;
+                display: flex;
+            }
+            .section-streching .container{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column-reverse;  
+                padding: 50px;
+                position: relative;
+                bottom: 40px;
+            }
+            .section-streching .main{
+                font-size: 18px;
+                width: 350px;
+                color: #313131;
+            } 
+            .section-streching .rise, .count{
+            display: flex;
+            padding:  20px;
+            border-radius: 7px;
+            background-color: rgb(255, 255, 255);
+            outline: 1px solid rgb(255, 255, 255) ;
+            border: none;
+            color: #000000;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: "Manrope-b";
+            margin-top: 10px;
+            display: none;
+            }
+            .section-streching .rise, .count p{
+                font-size: 12px;
+                font-weight: 800;
+                font-family: "Manrope-b";
+                width: 200px;
+                display: flex;
+                display: none;
+            }
+            .info{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            }
+            .price p{
+            font-size: 38px;
+            font-weight: 800;
+            font-family: "Manrope-b"; 
+            width: 360px;  
+            }
+            .price{
+                display: flex;
+                gap: 30px;
+                flex-direction: column;
+            }
+            .price .knopa{
+                display: flex;
+                align-items: center;
+            }
+            .section-streching .photo img{
+                border-radius: 20px;
+                height:250px;
+                width: 360px; 
+            }
+            .section-streching .half{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .section-coaches .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .section-coaches .linia{
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                flex-direction: column;
+                margin-top: 20px;
+                position: relative;
+                left: -30px;
+                justify-content: center;
+                margin-left: 40px;
+                }
+                .section-coaches .container2 {
+                    width: 360px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    right: 50px;
+                }
+                .section-about img{
+                    border-radius: 20px;
+                    height: 270px;
+                    width: 360px; 
+                    position: relative;
+                    right: 50px;
+                  
+                }
+                .section-about .container{
+                    display: flex;
+                    gap: 30px;
+                    flex-direction: column;
+                    padding: 50px;
+                }
+                .section-about .about{
+                    width: 360px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    position: relative;
+                    right: 45px;
+                }
+                .section-about .about h2{
+                    font-size: 30px;
+                    font-family: "Manrope-b";
+                    font-weight: 800;   
+                }
+                .section-about .about p{
+                  font-size: 12px; 
+                  color: #313131; 
+                }
+                .niz .container{
+                    display: flex;
+                    justify-content:center;
+                    flex-direction: column;
+                    padding: 40px 20px 40px 60px;
+                    gap: 20px;
+                }
+                .niz .prava p{
+                    font-family: "Manrope-r";
+                    font-size: 14px;
+                }
+                .niz .socials i{
+                    height: 40px;
+                    width: 40px;
+                    color: rgb(80, 80, 247); 
+                    margin-left: 30px;
+                    margin-top: 15px;
+                         
+                }
+                .niz .conf a{
+                    font-family: "Manrope-r";
+                    text-decoration: underline;
+                    color: #000000;
+                    font-size: 14px;
+                    margin-left: 15px;
+                }
+                .section-auth .container{
+                    border-radius: 20px;
+                    background: linear-gradient(90deg,#bfd6e694, #f0f1f3e8 );
+                    background-repeat: no-repeat;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 30px;
+                }
+                .two{
+                    display: flex;
+                    gap: 20px;
+                }
+                .two, .col, .one p{
+                    font-size: 0px;
+                    position: relative;
+                    
+                }
+                .col{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                }
+                .forma{
+                    display: flex;
+                    gap: 15px;
+                    flex-direction: column;
+                }
+                .zaglavie h2{
+                    font-size: 30px;
+                    font-family: "Manrope-b";
+                    font-weight: 800;    
+                    display: flex;
+                    justify-content: center;
+                    width: 360px;
+                    text-align: center;
+                }
+                .zaglavie p{
+                    font-size: 13px;
+                    margin-top: 15px;
+                    color: #000000b9;
+                    width:360px; 
+                    display: flex;
+                    justify-content: center; 
+                    text-align: center; 
+                }
+                .section-auth .name, .phone{
+                    border: solid 1.5px #b8b6b669;
+                    padding: 12px;
+                    border-radius: 8px;
+                    width: 130px;
+                    font-size: 14px;
+                    color: #ffffff;
+                    position: relative;
+                    left: 40px;
+                }
+                .section-auth .mail{
+                    border: solid 1.5px #b8b6b669;
+                    padding: 12px;
+                    border-radius: 8px;
+                    width: 320px;
+                    font-size: 13px;
+                    color: #ffffff;
+                    position: relative;
+                    left: 30px;
+                }
+                .knopki{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;  
+                    width: 360px;
+                    font-size: 13px;
+                    position: relative;
+                    left: 15px;
+                }
+                .knopki .knopa{
+                    position: relative;
+                    right: 80px;  
+                }
+            }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
